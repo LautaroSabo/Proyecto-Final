@@ -1,0 +1,39 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+// * NOVEDADES */
+
+.novedades-img{
+    margin: 0 50px 70px;
+    border-radius: 4px;
+    background-color: #1E88E5;
+}
+
+.section-novedades{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    grid-template-areas:"box-nov1 box-nov2"
+                        "box-nov3 box-nov3";
+}
+.box-nov1{
+    grid-area: box-nov1;
+    margin: 5px;
+}
+.box-nov2{
+    grid-area: box-nov2;
+    margin: 5px;
+}
+.box-nov3{
+    grid-area: box-nov3;
+    margin: 5px;
+}
+
+.section-novedades img{
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+}

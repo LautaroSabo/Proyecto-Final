@@ -1,0 +1,16 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+
+/* TABLA */
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0px 70px 50px;
+    padding: 25px;
+}
