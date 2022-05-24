@@ -24,9 +24,7 @@
 
 
 
-img:hover{
-    opacity: 0.5;
-}
+
 
 .container-img{
     margin: 0 20px 70px;
@@ -37,5 +35,5 @@ img:hover{
 .section img{
     height: 300px;
     width: 300px;
-    border-radius: 4px;
+    @extend .bordes;
 }

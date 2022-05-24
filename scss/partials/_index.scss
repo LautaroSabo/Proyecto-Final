@@ -23,8 +23,21 @@ body{
     font-size: 200px;
 }
 
+.Mas{
+    text-align: center;
+    background-color: white;
+    border-radius:  0 0 4px 4px;
+    font-size: 18px;
+    border-top: 2px solid rgba(0, 0, 0, 0.103);
+    font-family: $parrafos;
+}
 
+img:hover{
+    opacity: 0.5;
+}
 
-
+.mas:hover{
+    opacity: 0.5;
+}
 
 

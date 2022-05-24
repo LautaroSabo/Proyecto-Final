@@ -10,13 +10,13 @@
 footer{
     width: 100%;
     background-color: #4fa8fb;
-
+    
 }
 
 .container__footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1200px;
     margin: auto;
     align-items: center;
@@ -35,8 +35,10 @@ footer{
 .box__footer h2{
     margin-bottom: 30px;
     color: #343434;
-    font-weight: 700;
+    font-weight: $negrita;
+    font-family: $subtitulos;
 }
+
 
 .box__footer .terminos{
     max-width: 350px;
@@ -47,10 +49,16 @@ footer{
     text-align: center;
 }
 
+.terminos p{
+    font-family: $parrafos;
+    font-weight: $negrita;
+}
+
 .box__footer a{
     margin-top: 10px;
     color: #343434;
     font-weight: 600;
+    font-family: $subtitulos;
 }
 
 .box__footer a:hover{
@@ -72,6 +80,8 @@ footer{
 .box-copyright p{
     margin-top: 20px;
     color: #7a7a7a;
+    font-family: $parrafos;
+    font-weight: $negrita;
 }
 
 .box-copyright hr{
@@ -82,4 +92,20 @@ footer{
 
 .box__footer h2{
     font-size: 30px;
+}
+
+@media screen and (max-width: 648px) {
+    .container__footer{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box__footer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
 }
