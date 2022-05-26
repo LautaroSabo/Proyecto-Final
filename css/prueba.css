@@ -64,6 +64,15 @@ body {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 200px; }
 
+.titulo-grid {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 70px;
+  margin: 50px;
+  font-weight: 500;
+  background-color: #4fa8fbbd;
+  border-radius: 4px; }
+
 .section .mas {
   width: 0%;
   height: 50vh;
@@ -229,48 +238,6 @@ body {
 
 .box-img6 {
   grid-area: box-img6; }
-
-@media screen and (max-width: 650px) {
-  .section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, auto);
-    justify-items: center;
-    grid-template-areas: "box-img1" "box-img2" "box-img3" "box-img4" "box-img5" "box-img6"; }
-  .ventana-inicio {
-    display: none; }
-  .section img {
-    height: 250px;
-    width: 250px; }
-  .carousel-item img {
-    height: 150px;
-    width: 150px; }
-  .carousel-item {
-    height: auto; }
-  .carousel {
-    margin: 50px 10px; }
-  .navbar-brand {
-    margin: auto; }
-  .barra {
-    margin: 0; } }
-
-@media screen and (min-width: 650px) and (max-width: 992px) {
-  .section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
-    justify-items: center;
-    grid-template-areas: "box-img1 box-img2" "box-img3 box-img4" "box-img5 box-img6"; }
-  .navbar-brand {
-    margin: auto; } }
-
-@media screen and (min-width: 992px) {
-  .section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    justify-items: center;
-    grid-template-areas: "box-img1 box-img2 box-img3" "box-img4 box-img5 box-img6"; } }
 
 .container-img {
   margin: 0 20px 70px;
@@ -486,7 +453,8 @@ footer {
   margin-top: 20px;
   color: #7a7a7a;
   font-family: "Mulish", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 0; }
 
 .box-copyright hr {
   border: none;
@@ -508,3 +476,83 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 70px; } }
+
+.caja, .box-img1, .box-img2, .box-img3, .box-img4, .box-img5, .box-img6 {
+  margin: 5px 5px 0 5px; }
+
+.bordes, .box-img1, .box-img2, .box-img3, .box-img4, .box-img5, .box-img6, .section img {
+  border-radius: 4px 4px 0 0; }
+
+.box-img1 {
+  grid-area: box-img1; }
+
+.box-img2 {
+  grid-area: box-img2; }
+
+.box-img3 {
+  grid-area: box-img3; }
+
+.box-img4 {
+  grid-area: box-img4; }
+
+.box-img5 {
+  grid-area: box-img5; }
+
+.box-img6 {
+  grid-area: box-img6; }
+
+@media screen and (max-width: 650px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    justify-items: center;
+    grid-template-areas: "box-img1" "box-img2" "box-img3" "box-img4" "box-img5" "box-img6"; }
+  .ventana-inicio {
+    display: none; }
+  .section img {
+    height: 250px;
+    width: 250px; }
+  .carousel-item img {
+    height: 150px;
+    width: 150px; }
+  .carousel-item {
+    height: auto; }
+  .carousel {
+    margin: 50px 10px; }
+  .descripcion-img {
+    width: 250px; }
+  .navbar-brand {
+    margin: auto; }
+  .barra {
+    margin: 0; }
+  .titulo-grid {
+    font-size: 35px; } }
+
+@media screen and (max-width: 650px) and (max-width: 543px) {
+  .titulo-grid {
+    font-size: 30px; } }
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-template-areas: "box-img1 box-img2" "box-img3 box-img4" "box-img5 box-img6"; }
+  .navbar-brand {
+    margin: auto; }
+  .titulo-grid {
+    font-size: 50px; } }
+
+@media screen and (min-width: 650px) and (max-width: 992px) and (min-width: 650px) and (max-width: 733px) {
+  .titulo-grid {
+    font-size: 40px; } }
+
+@media screen and (min-width: 992px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+    grid-template-areas: "box-img1 box-img2 box-img3" "box-img4 box-img5 box-img6"; } }
