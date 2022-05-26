@@ -129,3 +129,20 @@ body{
     padding: 25px;
     border-radius: 100px;
 }
+
+.carousel{
+    margin: 50px 51px;
+    
+}
+.carousel-item{
+    background-color: white;
+    height: 13rem;
+    border-radius: 4px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
