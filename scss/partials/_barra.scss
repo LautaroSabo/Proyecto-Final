@@ -7,11 +7,23 @@
 
 .barra{
     margin: 50px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: $subtitulos;
     font-weight: $negrita;
 }
 
 .navbar{
     border-radius: 4px;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+}
+
+.d-flex{
+    margin-right: 30px;
 }

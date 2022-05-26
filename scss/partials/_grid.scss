@@ -7,12 +7,32 @@
 
 
 @media screen and (max-width: 650px){
-    @include grid-responsive-650px
+    @include grid-responsive-650px;
+    .carousel-item img{
+        height: 150px;
+        width: 150px;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .carousel{
+        margin: 50px 10px;
+    }
+
+    .navbar-brand{
+        margin: auto;
+    }
+    .barra{
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 650px) and (max-width: 992px) {
     .section{
     @include grid-responsive-992px;
+    }
+    .navbar-brand{
+        margin: auto;
     }
 }
 
