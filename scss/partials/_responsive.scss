@@ -1,0 +1,65 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+@media screen  and (max-width: 650px){
+    @include grid-responsive-650px;
+    .carousel-item img{
+        height: 150px;
+        width: 150px;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .carousel{
+        margin: 50px 10px;
+    }
+
+    .descripcion-img{
+        width: 250px;
+    }
+
+    .navbar-brand{
+        margin: auto;
+    }
+    .barra{
+        margin: 0;
+    }
+
+    .titulo-grid{
+        font-size: 35px;
+    }
+    @media screen and (max-width: 543px) {
+        .titulo-grid{
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+    .section{
+    @include grid-responsive-992px;
+    }
+    .navbar-brand{
+        margin: auto;
+    }
+    .titulo-grid{
+        font-size: 50px;
+    }
+
+    @media screen and (min-width: 650px) and (max-width:733px) {
+        .titulo-grid{
+            font-size: 40px;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section{
+        @include grid-index;
+    }
+    
+}
