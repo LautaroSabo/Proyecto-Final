@@ -8,12 +8,14 @@
 }
 
 body{
-    background-color: #95e7fc;
-    
+    // background-color: $azul-clarito;
+    background-image: url(../img/lesa/Lesa2.png);
+    margin: auto;
 }
 
 .ventana-inicio{
     background-image: url(../img/lesa/1.png);
+    margin: auto;
     height: 750px;
 }
 
