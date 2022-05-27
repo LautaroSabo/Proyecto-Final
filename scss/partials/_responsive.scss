@@ -21,6 +21,12 @@
         width: 250px;
     }
 
+    .section-novedades img{
+        height: 200px;
+        width: 200px;
+    }
+    // @include grid-nov;
+
     .navbar-brand{
         margin: auto;
     }
@@ -31,10 +37,21 @@
     .titulo-grid{
         font-size: 35px;
     }
+    .titulo-nov{
+        font-size: 35px;
+    }
     @media screen and (max-width: 543px) {
         .titulo-grid{
             font-size: 30px;
         }
+        .titulo-nov{
+            font-size: 30px;
+        }
+
+        .section-novedades{
+            @include grid-nov;}
+
+        
     }
 }
 
@@ -48,12 +65,22 @@
     .titulo-grid{
         font-size: 50px;
     }
+    .titulo-nov{
+        font-size: 50px;
+    }
 
+
+    .section-novedades img{
+        height: 250px;
+        width: 250px;
+    }
     @media screen and (min-width: 650px) and (max-width:733px) {
         .titulo-grid{
             font-size: 40px;
         }
-        
+        .titulo-nov{
+            font-size: 40px;
+        }
     }
 }
 
