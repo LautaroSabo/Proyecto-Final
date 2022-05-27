@@ -24,10 +24,12 @@
     
 
     .box-img1:hover .mas{
-        @extend hover;
+        width: 250px;
+        height: 340.5px;
     }
     .box-img2:hover .mas{
-        @extend hover;
+        width: 250px;
+        height: 340.5px;
     }
     .box-img3:hover .mas{
         width: 250px;
@@ -38,12 +40,15 @@
         height: 341px;
     }
     .box-img5:hover .mas{
-        @extend hover;
+        width: 250px;
+        height: 340.5px;
     }
     .box-img6:hover .mas{
-        @extend hover;
+        width: 250px;
+        height: 340.5px;
     }
-    
+
+
 
     // novedades
     .section-novedades img{
@@ -74,9 +79,11 @@
         .titulo-nov{
             font-size: 30px;
         }
-
-        
-        
+        @media screen and (max-width:480px) {
+            .titulo-grid{
+                font-size: 27px;
+            }
+        }
     }
     
 }
