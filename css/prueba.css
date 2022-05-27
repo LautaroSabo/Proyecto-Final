@@ -145,19 +145,21 @@ body {
   width: 300px; }
 
 .box-img4 {
-  width: 300px;
-  background-color: white; }
+  width: 300px; }
 
 .box-img5 {
   width: 300px; }
 
 .box-img6 {
-  width: 300px;
+  width: 300px; }
+
+.box-img6 img {
   background-color: white; }
 
 .box-img4 img {
   padding: 25px;
-  border-radius: 100px; }
+  border-radius: 100px;
+  background-color: white; }
 
 .carousel {
   margin: 50px 51px; }
