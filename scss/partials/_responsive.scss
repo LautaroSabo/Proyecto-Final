@@ -21,6 +21,29 @@
         width: 250px;
     }
 
+    
+
+    .box-img1:hover .mas{
+        @extend hover;
+    }
+    .box-img2:hover .mas{
+        @extend hover;
+    }
+    .box-img3:hover .mas{
+        width: 250px;
+        height: 365px;
+    }
+    .box-img4:hover .mas{
+        width: 250.5px;
+        height: 341px;
+    }
+    .box-img5:hover .mas{
+        @extend hover;
+    }
+    .box-img6:hover .mas{
+        @extend hover;
+    }
+
     // novedades
     .section-novedades img{
         height: 250px;
