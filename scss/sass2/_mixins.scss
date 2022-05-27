@@ -42,3 +42,13 @@
                         "box-img4 box-img5 box-img6";
 }
 
+@mixin grid-nov {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,auto);
+    justify-items: center;
+    grid-template-areas:"box-nov1"
+                        "box-nov2"
+                        "box-nov3"
+                        "box-nov3";
+}
