@@ -172,7 +172,8 @@ body {
   align-items: center; }
 
 .carousel-inner img {
-  margin: auto; }
+  margin: auto;
+  height: 200px; }
 
 .caja, .box-img1, .box-img2, .box-img3, .box-img4, .box-img5, .box-img6 {
   margin: 5px 5px 0 5px; }
