@@ -278,12 +278,21 @@ body {
 .formulario {
   display: flex;
   flex-direction: column;
-  margin: 40px 80px;
+  background-color: #4fa8fb;
   justify-content: center;
-  padding: 90px; }
+  padding: 50px 70px;
+  border-radius: 4px; }
 
 .formulario .col-12 {
   margin-top: 20px; }
+
+.flex-formulario {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin: 50px; }
 
 .caja, .box-img1, .box-img2, .box-img3, .box-img4, .box-img5, .box-img6 {
   margin: 5px 5px 0 5px; }
