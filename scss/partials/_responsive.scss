@@ -7,8 +7,11 @@
 @media screen  and (max-width: 650px){
     @include grid-responsive-650px;
     .carousel-item img{
-        height: 150px;
+        height: 100px;
         width: 150px;
+    }
+    .carousel-item .img-c-1 img{
+        width: 300px;
     }
     .carousel-item{
         height: auto;
