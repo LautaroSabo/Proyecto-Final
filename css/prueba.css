@@ -688,6 +688,15 @@ footer {
     grid-template-rows: repeat(3, auto);
     justify-items: center;
     grid-template-areas: "box-nov1" "box-nov2" "box-nov3" "box-nov3"; }
+  .box-nov1 {
+    height: 250px;
+    width: 250px; }
+  .box-nov2 {
+    height: 250px;
+    width: 250px; }
+  .box-nov3 {
+    height: 250px;
+    width: 250px; }
   .navbar-brand {
     margin: auto; }
   .barra {
