@@ -75,7 +75,7 @@
     }
 
     .navbar-brand{
-        margin: auto;
+        margin: 0;
     }
     .barra{
         margin: 0;
@@ -108,7 +108,7 @@
     @include grid-responsive-992px;
     }
     .navbar-brand{
-        margin: auto;
+        margin: 0;
     }
     .titulo-grid{
         font-size: 50px;

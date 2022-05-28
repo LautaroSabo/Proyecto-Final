@@ -698,7 +698,7 @@ footer {
     height: 250px;
     width: 250px; }
   .navbar-brand {
-    margin: auto; }
+    margin: 0; }
   .barra {
     margin: 0; }
   .titulo-grid {
@@ -724,7 +724,7 @@ footer {
     justify-items: center;
     grid-template-areas: "box-img1 box-img2" "box-img3 box-img4" "box-img5 box-img6"; }
   .navbar-brand {
-    margin: auto; }
+    margin: 0; }
   .titulo-grid {
     font-size: 50px; }
   .titulo-nov {
